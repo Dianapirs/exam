@@ -1,0 +1,367 @@
+@media screen and (max-width: 1440px) {
+    .practice-blocks__arrow {
+        right: 60px;
+    }
+
+    .practice-blocks__item1:hover,
+    .practice-blocks__item2:hover,
+    .practice-blocks__item3:hover {
+        background-size: 640px 300px;
+    }
+
+    .meditation__blocks-left-item1, 
+    .meditation__blocks-left-item2, 
+    .meditation__blocks-left-item3 {
+        background-size: auto 97%;
+        width: 100%;
+    }
+
+    .meditation__blocks-right-item1, 
+    .meditation__blocks-right-item2, 
+    .meditation__blocks-right-item3 {
+        background-size: auto 97%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .nav .nav__block {
+        top: 45px;
+    }
+
+    .nav li {
+        width: 130px;
+        text-align: center;
+    }
+    .practice__img {
+        width: 500px;
+    }
+
+    .practice-blocks__desk {
+        font-size: 20px;
+    }
+
+    .meditation__blocks-left-item1,
+    .meditation__blocks-left-item2,
+    .meditation__blocks-left-item3 {
+        background-size: 100% 180px;
+        height: 180px;
+        max-height: 250px;
+        margin-bottom: 50px;
+    } 
+
+    .meditation__blocks-right-item1,
+    .meditation__blocks-right-item2,
+    .meditation__blocks-right-item3 {
+        background-size: 100% 180px;
+        height: 180px;
+        max-height: 250px;
+        margin-bottom: 50px;
+    }
+
+    .transform__block1-img,
+    .transform__block2-img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .nav .nav__block {
+        top: 40px;
+    }
+    .main-page {
+        background-size: 100% 1000px;
+    }
+
+    .main-page__blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .practice-blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .practice__img {
+        margin-top: 39px;
+        width: 600px;
+    }
+
+    .practice-blocks__desk {
+        width: 60%;
+    }
+
+    .practice-blocks__arrow {
+        right: 300px;
+    }
+
+    .breath__blocks {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .breath__blocks-music {
+        width: 100%;
+        padding-top: 0;
+        height: 400px;
+    }
+
+    .breath__blocks-music1, 
+    .breath__blocks-music2, 
+    .breath__blocks-music3 {
+        margin: 0 auto 20px auto;
+    }
+
+    .meditation__blocks-left-item1,
+    .meditation__blocks-left-item2,
+    .meditation__blocks-left-item3 {
+        background-size: 100% 220px;
+        height: 230px
+    }
+
+    .meditation__blocks-right-item1,
+    .meditation__blocks-right-item2, 
+    .meditation__blocks-right-item3 {
+        background-size: 100% 220px;
+        height: 230px
+    }
+
+    .transform__title {
+          padding-top: 0;
+    }
+
+    .transform__block1-img,
+    .transform__block2-img {
+           width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        width: 100%;
+    }
+
+    .header-wrapper {
+        justify-content: center;
+    }
+
+   
+
+    .nav li a {
+        width: 80px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .nav li {
+        width: 80px;
+    }
+
+    
+    .practice-blocks__item1:hover,
+    .practice-blocks__item2:hover,
+    .practice-blocks__item3:hover {
+        background-size: 500px 300px;
+    }
+
+    .meditation {
+        background-size: cover;
+        height: 1500px;
+    }
+
+    .meditation__title {
+        padding: 0 0 20px 0;
+    }
+
+    .meditation__blocks {
+        display: block;
+        background-size: 45%;
+        background-position: right;
+    }
+
+    .meditation__blocks-left_items,
+    .meditation__blocks-right_items {
+        width: 60%;
+    }
+
+    .meditation__blocks-left-item1, 
+    .meditation__blocks-left-item2, 
+    .meditation__blocks-left-item3 {
+        background-size: 100% 184px;
+        height: 167px;
+    }
+
+    .meditation__blocks-right-item1, 
+    .meditation__blocks-right-item2, 
+    .meditation__blocks-right-item3 {
+        background-size: 100% 184px;
+        height: 167px;
+    }
+
+    .transform__block1, 
+    .transform__block2 {
+        margin-top: 50px;
+    }
+
+    .transform__block1-items, 
+    .transform__block2-items {
+        display: block;
+    }
+
+    .transform__block1-img,
+    .transform__block2-img {
+        width: 500px;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .footer__list a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .container { 
+        width: 95%;
+    }
+
+    .header-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .nav > ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav li {
+        margin: 10px;
+    }
+
+
+    .nav li a:hover .nav__block {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .main-page .main-page__girl {
+        width: 100%;
+        height: 100%;
+        margin: 50px auto 40px auto;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .practice-blocks {
+        display: block;
+    }
+
+    .practice__img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .practice-blocks__items {
+        margin: 0;
+    }
+
+    .practice-blocks__item1:hover,
+    .practice-blocks__item2:hover, 
+    .practice-blocks__item3:hover {
+        background-size: 100% 380px;
+    }
+
+    .practice-blocks__item1, 
+    .practice-blocks__item2, 
+    .practice-blocks__item3 {
+        height: 250px;
+        width: auto;
+    }
+
+    .practice-blocks__arrow {
+        right: 157px;
+    }
+
+    .practice-blocks__desk {
+        width: 90%;
+    }
+
+    .breath__blocks-music1, 
+    .breath__blocks-music2, 
+    .breath__blocks-music3 {
+        width: 100%;
+        display: block;
+        max-height: 162px;
+        background-size: 95% 100%;
+        max-width: 279px;
+    }
+
+    .breath__blocks-music {
+        height: 530px;
+    }
+
+    .meditation__blocks {
+        background-image: none;
+    }
+
+    .meditation__blocks-left_items, 
+    .meditation__blocks-right_items {
+        width: 100%;
+    }
+
+    .transform__block1-img, 
+    .transform__block2-img {
+        width: 100%;
+    }
+
+    .footer {
+        padding-top: 152px;
+        background-size: cover;
+    }
+
+    .footer__list ul {
+        text-align: center;
+        display: block;
+    }
+
+    .footer__list li:not(:last-child) {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .practice-blocks__arrow {
+        right: 65px;
+    }
+
+    .meditation {
+        height: 1660px;
+    }
+
+    .main-page__block1, 
+    .main-page__block2, 
+    .main-page__block3 {
+        background-size: auto;
+        width: 290px;
+    }
+
+    .practice-blocks__item1, 
+    .practice-blocks__item2, 
+    .practice-blocks__item3 {
+        padding-left: 33px;
+    }
+}
